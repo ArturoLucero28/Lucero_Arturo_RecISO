@@ -6,7 +6,7 @@ def un_proceso():
     a, b, c, final = 0, 0, 0, 1
 
     while final != 0:
-        print("Escribe tres números distintos, por favor")
+        print("Escribe tres números distintos")
         a = int(input("Ingrese el primer numero: "))
         b = int(input("Ingrese el segundo numero: "))
         c = int(input("Ingrese el tercer numero: "))
@@ -21,7 +21,7 @@ def un_proceso():
             else:
                 print("c es el mayor:", c)
 
-        print("¿Quiere finalizar el proceso? Teclee 0 para salir.")
+        print("Teclee 0 para salir o cualquiera para continuar .")
         final = int(input())
 
 un_proceso()
